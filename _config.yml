@@ -1,6 +1,6 @@
 title: Alexandr Wolodarkij
-description: "Indie game developer and AI optimist tinkering with moral tension"
-url: "https://octobernight.games"
+description: "Indie game developer and AI optimist."
+url: ""
 baseurl: ""
 theme: jekyll-theme-minimal
 show_downloads: false
@@ -14,13 +14,7 @@ author:
   name: Alexandr Wolodarkij
   email: wolodarskij@octobernight.games
   location: Berlin, Germany
-  summary: "Indie game developer stitching AI systems into human choices."
-
-social_links:
-  github: wolodarkij
-  mastodon: mastodon.gamedev.social/@wolodarkij
-  itch: octobernight
-
+  summary: "Indie game developer and AI optimist."
 navigation:
   - text: About
     url: /about

@@ -6,16 +6,14 @@ permalink: /about/
 
 ## Alexandr Wolodarkij
 
-Indie game dev. AI optimist. I chase the moment a small push wrecks someone’s moral compass.
+Indie game dev. AI optimist.
 
-### Statement (short)
+> I want the games to explore choices and the intentions behind them. “All it takes is one bad day to reduce the sanest man alive to lunacy” – sometimes a small push can change the poles of a moral compass, and these metamorphoses deserve deeper exploration.
 
-Games should know more than they show. Hide the rules. Let players bruise the system until it talks. Right and wrong exist; the fun is feeling the slip.
+> Simple black-and-white narratives may be overused, but the moral gray zone, the blanket denial of good and evil, is even more tiresome. There is right and there is wrong, and the challenge lies in discovering where each resides.
 
-### Currently messing with
+> Hidden information creates depth and intrigue, and it lets real meaning emerge in players' minds through interpretations. Gameplay rules may remain obscure. Players learn by poking the system, breaking it, seeing how it responds.
 
-- Jury LLMs that hold grudges
-- Co-op radios that lie when you talk over them
-- Markets that price your conscience
+> Balance and fairness matter less than player experience and emotion, whether pleasant or disturbing. The goal is to draw players in with a cocaine rush, and deliver an LSD trip afterward, to make them discover something deeper, something beyond the entertainment.
 
 [wolodarskij@octobernight.games](mailto:wolodarskij@octobernight.games)

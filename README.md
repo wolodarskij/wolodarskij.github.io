@@ -1,14 +1,14 @@
 ## Alexandr Wolodarkij — Indie game dev site
 
-This repo powers octobernight.games, a Jekyll site built on the `jekyll-theme-minimal` theme with a custom layer of SCSS.
+This repo powers a Jekyll site built on the `jekyll-theme-minimal` theme with a thin layer of SCSS.
 
 ### Structure
 
-- `index.md` – quick intro, current obsessions, featured builds, contact link
-- `about.md` – artist statement plus current experiments
-- `projects.md` – renders `_projects/` collection with detailed write-ups
-- `blog.md` – dev log index listing posts in `_posts/`
-- `_projects/` – markdown files describing each game experiment
+- `index.md` – intro, statement excerpt, contact link
+- `about.md` – artist statement excerpt
+- `projects.md` – placeholder page wired to the `_projects/` collection
+- `blog.md` – dev log index (currently empty)
+- `_projects/` – collection folder (empty placeholder)
 - `assets/css/style.scss` – stylistic overrides for typography, layout, and cards
 
 ### Local dev

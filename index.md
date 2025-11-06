@@ -6,56 +6,21 @@ permalink: /
 
 <section class="hero">
   <p class="eyebrow">Alexandr Wolodarkij • indie game dev / AI optimist</p>
-  <h1>Games that hook fast and leave you uneasy.</h1>
-  <p class="lead">Hidden rules, moral whiplash.</p>
+  <h1>Games about choices and the intentions behind them.</h1>
+  <p class="lead">There is right and there is wrong; the work is finding where each resides.</p>
   <div class="hero-actions">
-    <a class="link-arrow" href="{{ '/projects' | relative_url }}">Latest builds</a>
+    <a class="link-arrow" href="{{ '/projects' | relative_url }}">Projects</a>
     <a class="link-arrow" href="mailto:wolodarskij@octobernight.games">Email</a>
   </div>
 </section>
 
-<section class="section" id="pulse">
-  <h2>Now</h2>
-  <div class="pill-grid">
-    <article>
-      <h3>AI trouble</h3>
-      <p>Tiny models that meddle without stealing control.</p>
-    </article>
-    <article>
-      <h3>Opaque systems</h3>
-      <p>Players learn by breaking rules, not tutorials.</p>
-    </article>
-    <article>
-      <h3>Hard lines</h3>
-      <p>Right and wrong exist. Feeling the slide is the point.</p>
-    </article>
-  </div>
-</section>
-
-<section class="section" id="projects">
-  <div class="section-heading">
-    <h2>In playtest</h2>
-    <a class="link-arrow" href="{{ '/projects' | relative_url }}">All builds</a>
-  </div>
-  <ul class="project-grid">
-    {% assign featured = site.projects | where: "featured", true | slice: 0, 3 %}
-    {% for project in featured %}
-    <li>
-      <h3><a href="{{ project.url | relative_url }}">{{ project.title }}</a></h3>
-      <p>{{ project.summary }}</p>
-      {% if project.tags %}
-      <ul class="tag-list">
-        {% for tag in project.tags %}
-        <li>{{ tag }}</li>
-        {% endfor %}
-      </ul>
-      {% endif %}
-    </li>
-    {% endfor %}
-  </ul>
+<section class="section" id="statement">
+  <h2>Statement</h2>
+  <p>I want games that know more than they show. Hidden information creates depth and intrigue, and it lets real meaning emerge in players' minds through interpretations. Gameplay rules may remain obscure. Players learn by poking the system, breaking it, seeing how it responds.</p>
+  <p>Balance and fairness matter less than player experience and emotion, whether pleasant or disturbing. The goal is to draw players in with a cocaine rush, and deliver an LSD trip afterward, to make them discover something deeper, something beyond the entertainment.</p>
 </section>
 
 <section class="section" id="ping">
-  <h2>Ping me</h2>
-  <p><a href="mailto:wolodarskij@octobernight.games">wolodarskij@octobernight.games</a>. Send ideas, builds, or bugs.</p>
+  <h2>Contact</h2>
+  <p><a href="mailto:wolodarskij@octobernight.games">wolodarskij@octobernight.games</a></p>
 </section>
