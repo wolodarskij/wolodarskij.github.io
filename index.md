@@ -5,37 +5,37 @@ permalink: /
 ---
 
 <section class="hero">
-  <p class="eyebrow">Alexandr Wolodarkij • Indie game dev • AI optimist</p>
-  <h1>I make games where hidden rules twist your compass.</h1>
-  <p class="lead">Mechanical hooks first, moral hangover after.</p>
+  <p class="eyebrow">Alexandr Wolodarkij • indie game dev / AI optimist</p>
+  <h1>Games that hook fast and leave you uneasy.</h1>
+  <p class="lead">Hidden rules, moral whiplash.</p>
   <div class="hero-actions">
-    <a class="link-arrow" href="{{ '/projects' | relative_url }}">See the latest builds</a>
-    <a class="link-arrow" href="mailto:wolodarskij@octobernight.games">Contact</a>
+    <a class="link-arrow" href="{{ '/projects' | relative_url }}">Latest builds</a>
+    <a class="link-arrow" href="mailto:wolodarskij@octobernight.games">Email</a>
   </div>
 </section>
 
 <section class="section" id="pulse">
-  <h2>Current obsessions</h2>
+  <h2>Now</h2>
   <div class="pill-grid">
     <article>
-      <h3>AI conspirators</h3>
-      <p>Small models nudging player choices, never stealing agency.</p>
+      <h3>AI trouble</h3>
+      <p>Tiny models that meddle without stealing control.</p>
     </article>
     <article>
-      <h3>Hidden systems</h3>
-      <p>Rules that stay opaque so curiosity has teeth.</p>
+      <h3>Opaque systems</h3>
+      <p>Players learn by breaking rules, not tutorials.</p>
     </article>
     <article>
-      <h3>Moral clarity</h3>
-      <p>No gray sludge. There is right, there is wrong, and you’ll feel the slide.</p>
+      <h3>Hard lines</h3>
+      <p>Right and wrong exist. Feeling the slide is the point.</p>
     </article>
   </div>
 </section>
 
 <section class="section" id="projects">
   <div class="section-heading">
-    <h2>Playtests in motion</h2>
-    <a class="link-arrow" href="{{ '/projects' | relative_url }}">All projects</a>
+    <h2>In playtest</h2>
+    <a class="link-arrow" href="{{ '/projects' | relative_url }}">All builds</a>
   </div>
   <ul class="project-grid">
     {% assign featured = site.projects | where: "featured", true | slice: 0, 3 %}
@@ -56,6 +56,6 @@ permalink: /
 </section>
 
 <section class="section" id="ping">
-  <h2>Say hi</h2>
-  <p>Drop a line at <a href="mailto:wolodarskij@octobernight.games">wolodarskij@octobernight.games</a>. Bring weird ideas, unfinished prototypes, or AI creatures that need a home.</p>
+  <h2>Ping me</h2>
+  <p><a href="mailto:wolodarskij@octobernight.games">wolodarskij@octobernight.games</a>. Send ideas, builds, or bugs.</p>
 </section>

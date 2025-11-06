@@ -4,18 +4,18 @@ title: About
 permalink: /about/
 ---
 
-## Hello, I’m Alexandr
+## Alexandr Wolodarkij
 
-Indie game developer. AI optimist. Permanently curious about how a single nudge can flip a moral compass.
+Indie game dev. AI optimist. I chase the moment a small push wrecks someone’s moral compass.
 
-### Artist statement
+### Statement (short)
 
-I want games to expose intention, not just consequence. There is right and there is wrong, and the thrill is feeling the poles drift. Hidden rules stay hidden; players prod, break, and learn the hard way. Balance is optional. Emotion is required. The sugar rush of the loop is bait. The real payload is a quieter trip that lingers after the credits.
+Games should know more than they show. Hide the rules. Let players bruise the system until it talks. Right and wrong exist; the fun is feeling the slip.
 
-### What I’m exploring now
+### Currently messing with
 
-- AI sidekicks that meddle with your plans without stealing the controller
-- Narrative fog: information withheld just long enough to itch
-- Tiny builds, fast playtests, then bigger swings
+- Jury LLMs that hold grudges
+- Co-op radios that lie when you talk over them
+- Markets that price your conscience
 
-Say hi: [wolodarskij@octobernight.games](mailto:wolodarskij@octobernight.games)
+[wolodarskij@octobernight.games](mailto:wolodarskij@octobernight.games)
