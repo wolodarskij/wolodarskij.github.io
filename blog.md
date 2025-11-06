@@ -1,12 +1,12 @@
 ---
 layout: page
-title: Notes & Writing
+title: Dev Log
 permalink: /blog/
 ---
 
-## Experiments, lessons, and field notes
+## Short dev notes
 
-I write about the systems, teams, and practices that keep products shipping smoothly.
+Scraps from the build process, AI experiments, and design rabbit holes.
 
 <ul class="post-list">
   {% for post in site.posts %}

@@ -1,19 +1,19 @@
 ---
 layout: post
-title: "Crafting a Product Delivery Operating System"
-excerpt: "How to turn ad-hoc iteration into a predictable, measurable software delivery engine."
+title: "Teaching jurors to lie just enough"
+excerpt: "Night Debt dev note: wrangling a tiny language model into a spiteful courtroom chorus."
 tags:
-  - delivery
-  - devops
-  - leadership
+  - night-debt
+  - ai
+  - design
 ---
 
-Shipping quickly is rarely about raw speed. It is about **reliability, focus, and learning loops**. Over dozens of teams I have noticed the same friction again and again: unclear ownership, brittle environments, and success metrics defined after launch.
+I needed the jury in Night Debt to sound human, but not fair. The fix: a pocket LLM trained on public trial transcripts and pulp tabloids. It keeps the cadence grounded while still snapping at the player when lies pile up.
 
-Here is the operating system I install with new partners:
+Tricks that stuck:
 
-1. **Shared language for work.** Lightweight planning cadences, enumerated bet sizes, and an explicit definition of done.
-2. **Paved roads.** One click to scaffold a service, provision preview infrastructure, and ship behind a feature flag.
-3. **Observability as a habit.** Product, design, and engineering look at the same dashboards. Incidents are blameless and instrumented.
+1. **Bias drift on purpose.** I nudge the jury embedding every time the player repeats an argument. The same plea gets colder each round.
+2. **Anchor sentences.** Hand-authored opening lines keep the machine from going full technobabble.
+3. **Refusal floor.** If the model tries to lecture instead of judge, I clamp the logit and force a verdict.
 
-None of this is glamorous. All of it pays dividends when the roadmap heats up.
+It’s messy, but the room now feels complicit.

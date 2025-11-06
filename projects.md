@@ -4,15 +4,18 @@ title: Projects
 permalink: /projects/
 ---
 
-## Recent work
+## Game experiments
 
-Here is a snapshot of engagements where I partnered with teams to unlock growth, improve reliability, and elevate user experience.
+Short, strange, usually unstable. These are the builds I keep prodding until they bleed right.
 
 <div class="project-list">
   {% for project in site.projects %}
   <article class="project-card">
     <h2><a href="{{ project.url | relative_url }}">{{ project.title }}</a></h2>
-    <p class="project-meta">{{ project.role }} • {{ project.industry }}</p>
+    <p class="project-meta">{{ project.role }} • {{ project.platforms }}</p>
+    {% if project.status %}
+    <p class="project-status">{{ project.status }}</p>
+    {% endif %}
     <p>{{ project.summary }}</p>
     {% if project.outcome %}
     <p class="project-outcome"><strong>Outcome:</strong> {{ project.outcome }}</p>
@@ -35,4 +38,4 @@ Here is a snapshot of engagements where I partnered with teams to unlock growth,
   {% endfor %}
 </div>
 
-Looking for something specific? [Reach out](#contact) and I will share a tailored case study.
+Want in on a playtest? [Email me](mailto:wolodarskij@octobernight.games).

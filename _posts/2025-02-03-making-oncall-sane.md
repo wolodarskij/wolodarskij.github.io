@@ -1,19 +1,19 @@
 ---
 layout: post
-title: "Making On-call Sane for High-growth Teams"
-excerpt: "Treat on-call like a product and your engineers will sleep again."
+title: "When the ghost radio starts gaslighting you"
+excerpt: "Signal Weaver diary. Co-op horror plus AI mediums equals players doubting each other."
 tags:
-  - sre
-  - culture
-  - operations
+  - signal-weaver
+  - ai
+  - playtest
 ---
 
-When a team scales quickly, on-call tends to suffer first. Incident queues grow, context fades, and suddenly your best people dread their rotation.
+The latest Signal Weaver playtest ended with one player muting their mic out of spite. Success? Maybe.
 
-I have helped teams cut paging volume by 70% while improving response times. The pattern looks like this:
+Changes that dialed up the paranoia:
 
-- **State the promise.** Align leadership on what “good” means: response times, error budgets, and staffing expectations.
-- **Instrument everything.** Alert on symptoms users feel, not every shaky metric. Pair it with runbooks that have owners.
-- **Invest in recovery.** Practice incident response, automate the boring steps, and treat postmortems as opportunities to teach.
+- **AI medium mood swings.** The helper model now mirrors whichever player hesitates. Pause too long and it invents new glyphs. Confidence is mandatory.
+- **Static debt.** Talk over your partner and the next room scrambles itself. The puzzle can still be solved, but now both of you doubt every hint.
+- **Memory vault roulette.** Solving the wrong broadcast deletes a clue you needed later. Knowledge has teeth now.
 
-Calm operations is not just possible—done right, it becomes a competitive advantage for hiring and delivery.
+Next sprint: network sync so long-distance ghosts can ruin friendships too.

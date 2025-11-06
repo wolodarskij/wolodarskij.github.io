@@ -255,6 +255,14 @@ textarea:focus {
   color: var(--text-muted);
 }
 
+.project-status {
+  font-size: 0.85rem;
+  font-weight: 600;
+  color: var(--accent);
+  margin-top: -0.1rem;
+  margin-bottom: 0.75rem;
+}
+
 .project-outcome {
   margin-top: 1rem;
   background: var(--bg-subtle);

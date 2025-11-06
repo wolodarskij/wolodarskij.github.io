@@ -1,6 +1,6 @@
 title: Alexandr Wolodarkij
-description: "Software engineer crafting reliable, human-centered products"
-url: "https://alexandr.example"
+description: "Indie game developer and AI optimist tinkering with moral tension"
+url: "https://octobernight.games"
 baseurl: ""
 theme: jekyll-theme-minimal
 show_downloads: false
@@ -12,14 +12,14 @@ header_pages:
 
 author:
   name: Alexandr Wolodarkij
-  email: alexandr@example.com
+  email: wolodarskij@octobernight.games
   location: Berlin, Germany
-  summary: "Full-stack engineer obsessed with continuous delivery, DX, and measurable impact."
+  summary: "Indie game developer stitching AI systems into human choices."
 
 social_links:
   github: wolodarkij
-  linkedin: alexandr-wolodarkij
-  twitter: wolodarkij
+  mastodon: mastodon.gamedev.social/@wolodarkij
+  itch: octobernight
 
 navigation:
   - text: About
@@ -29,7 +29,7 @@ navigation:
   - text: Blog
     url: /blog
   - text: Contact
-    url: /#contact
+    url: /#ping
 
 collections:
   projects:

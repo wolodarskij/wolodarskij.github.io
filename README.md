@@ -1,17 +1,17 @@
-## Alexandr Wolodarkij — Portfolio site
+## Alexandr Wolodarkij — Indie game dev site
 
-This repository contains the source for Alexandr Wolodarkij’s personal website, built with [Jekyll](https://jekyllrb.com/) and the `jekyll-theme-minimal` theme.
+This repo powers octobernight.games, a Jekyll site built on the `jekyll-theme-minimal` theme with a custom layer of SCSS.
 
 ### Structure
 
-- `index.md` – hero landing page highlighting focus areas, projects, testimonials, and contact form
-- `about.md` – background, philosophy, and recent engagements
-- `projects.md` – collection-driven showcase of project case studies stored in `_projects/`
-- `blog.md` – writing hub rendering posts from `_posts/`
-- `assets/css/style.scss` – custom styles layered on top of the default theme
-- `_layouts/project.html` – tailored layout for long-form project write-ups
+- `index.md` – quick intro, current obsessions, featured builds, contact link
+- `about.md` – artist statement plus current experiments
+- `projects.md` – renders `_projects/` collection with detailed write-ups
+- `blog.md` – dev log index listing posts in `_posts/`
+- `_projects/` – markdown files describing each game experiment
+- `assets/css/style.scss` – stylistic overrides for typography, layout, and cards
 
-### Local development
+### Local dev
 
 ```bash
 gem install bundler jekyll
@@ -19,8 +19,8 @@ bundle install
 bundle exec jekyll serve
 ```
 
-Then open `http://localhost:4000` to preview the site.
+Visit `http://localhost:4000` for the live preview.
 
 ### Deployment
 
-The site is compatible with GitHub Pages. Configure repository settings to publish via GitHub Pages with the source set to the default branch.
+Ready for GitHub Pages or any static host. Point your domain at the generated `_site` output.
