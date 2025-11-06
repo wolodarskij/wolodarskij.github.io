@@ -1,2 +1,3 @@
-## Alexandr Wolodarkij's github projects
-(to be updated)
+## Alexandr Wolodarkij site
+
+Single-page static site. `index.html` renders only the name.
