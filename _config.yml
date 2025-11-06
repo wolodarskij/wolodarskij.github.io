@@ -1,1 +1,48 @@
+title: Alexandr Wolodarkij
+description: "Software engineer crafting reliable, human-centered products"
+url: "https://alexandr.example"
+baseurl: ""
 theme: jekyll-theme-minimal
+show_downloads: false
+google_analytics:
+header_pages:
+  - about.md
+  - projects.md
+  - blog.md
+
+author:
+  name: Alexandr Wolodarkij
+  email: alexandr@example.com
+  location: Berlin, Germany
+  summary: "Full-stack engineer obsessed with continuous delivery, DX, and measurable impact."
+
+social_links:
+  github: wolodarkij
+  linkedin: alexandr-wolodarkij
+  twitter: wolodarkij
+
+navigation:
+  - text: About
+    url: /about
+  - text: Projects
+    url: /projects
+  - text: Blog
+    url: /blog
+  - text: Contact
+    url: /#contact
+
+collections:
+  projects:
+    output: true
+    permalink: /projects/:title/
+
+defaults:
+  - scope:
+      path: ""
+      type: projects
+    values:
+      layout: project
+
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
